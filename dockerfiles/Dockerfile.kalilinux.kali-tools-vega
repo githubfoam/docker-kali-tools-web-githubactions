@@ -18,9 +18,9 @@ RUN apt-get update -y && apt-get upgrade -y && apt-get autoremove - && apt-get c
 
 
 # custom packages
-RUN cat <<EOT | sudo tee /etc/apt/sources.list.d/stretch.list
-    deb http://deb.debian.org/debian/ stretch main contrib non-free
-    deb-src http://deb.debian.org/debian/ stretch main contrib non-free
-    deb http://security.debian.org/ stretch/updates main contrib non-free
-    deb-src http://security.debian.org/ stretch/updates main contrib non-free
+RUN cat <<EOT | sudo tee /etc/apt/sources.list.d/stretch.list \
+    deb http://deb.debian.org/debian/ stretch main contrib non-free \
+    deb-src http://deb.debian.org/debian/ stretch main contrib non-free \
+    deb http://security.debian.org/ stretch/updates main contrib non-free \
+    deb-src http://security.debian.org/ stretch/updates main contrib non-free\
     EOT
