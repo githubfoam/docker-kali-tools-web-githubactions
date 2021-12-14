@@ -1,6 +1,6 @@
 # docker-kali-tools-web-githubactions
 
-[![kali-tools-web CI workflow](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-vulnerability-workflow.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-vulnerability-workflow.yml)  
+[![kali-tools-web CI workflow](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-web-wf.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-web-wf.yml)  
 [![kali-tools-web vega CI workflow](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-web-vega-wf.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-kali-tools-web-githubactions/actions/workflows/kali-tools-web-vega-wf.yml)
 
 ~~~
