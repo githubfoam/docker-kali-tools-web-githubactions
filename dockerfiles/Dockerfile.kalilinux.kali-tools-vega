@@ -8,12 +8,12 @@ RUN apt-get update -y && apt-get upgrade -y && apt-get autoremove - && apt-get c
 # https://www.kali.org/docs/general-use/metapackages/
 # https://www.kali.org/tools/kali-meta/
 # The most commonly used tools
-# RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections && \
-#     apt-get install -y kali-tools-web && \
-#     echo "########################### METAPACKAGE INFO ###########################" && \
-#     apt depends kali-tools-web  && \
-#     apt show kali-tools-web && \
-#     echo "########################### METAPACKAGE INFO ###########################"
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections && \
+    apt-get install -y kali-tools-web && \
+    echo "########################### METAPACKAGE INFO ###########################" && \
+    apt depends kali-tools-web  && \
+    apt show kali-tools-web && \
+    echo "########################### METAPACKAGE INFO ###########################"
 
 
 
